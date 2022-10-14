@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+.aktiv {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aktiv-ex {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aktiv-ex-bold {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.aw {
+    font-family: aw-conqueror-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.freight {
+    font-family: freight-big-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.neue-light {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.neue-medium {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1.aw {
+    font-size: 33px;
+}
+
+h1.neue-light {
+    font-size: 28px;
+}
+
+p.neue-medium {
+    font-size: 20px;
+}
+
+p.aktiv {
+    font-size: 17px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bulletp {
+    margin-left: 25px;
+}
+
+#nav {
+    justify-content: center;
+    margin: 20px 0px 0px 20px;
+    width: 100%;
+    /* outline: 1px solid #000; */
+}
+
+#nav h1 {
+    display: inline;  
+}
+
+#bottom {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    /* outline: 1px solid #000; */
+    display: flex;
+}
+
+#links {
+    position: absolute;
+    bottom: 0px;
+    width: 40%;
+    /* outline: 1px solid #000; */
+}
+
+#content {
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+    height: 500px;
+    width: 55%;
+    /* outline: 1px solid #000; */
+    overflow: scroll;
+}
+
+#main-text {
+    font-size: 12px;
+}
+
+#links p {
+    display: inline;
+    line-height: 30px;
+}
+
+#links p.aktiv {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#links p.aktiv:hover {
+    letter-spacing: 1px;
+    margin-left: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+
+}
+
+#nav a:hover {
+    letter-spacing: 2px;
+    margin-left: 2px;
+}
+
+
+
+a:visited {
+    color: black;
+}
